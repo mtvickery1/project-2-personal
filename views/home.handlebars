@@ -1,0 +1,44 @@
+<!-- START PAGE -->
+<div class="container container-fluid box-style" id="start-page">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="display-4">Focus!</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <hr class="my-4">
+            <p class="lead">Focus for 52 minutes</p>
+            <a href="/theAwesomeTimer" class="btn btn-secondary btn-lg" id="start-button" role="button">Begin Timer</a>
+            <a class="btn btn-secondary btn-lg" id="new-focus" role="button">Adjust Timer</a>
+            <button class="btn btn-secondary btn-lg" id="mapButton">Show Map</button>
+            <button class="btn btn-secondary btn-lg" id="mapHide" style="color: black">Hide Map</button>
+            <br><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12" id="mapDiv">
+            <h3>Nearby Study Spots</h3>
+            <div id="map"></div>
+            <br>
+
+            <br><br>
+        </div>
+    </div>
+    <a class="logout btn btn-secondary btn-sm" href="/logout">Log Out</a>
+</div>
+<div class="container container-fluid box-style" id="adjust-focus-page">
+    <div class="row">
+        <div class="col-12">
+            <form>
+                <div class="form-group">
+                    <h1 class="display-5">Adjust Focus</h1>
+                    <label for="adjust-focus">New focus time (minutes)</label>
+                    <input type="text" class="form-control" id="adjust-focus" placeholder="How long do you want to focus?">
+                </div>
+                <button type="submit" class="btn btn-secondary btn-lg" id="adjust-focus-button">Begin Timer</button>
+            </form>
+        </div>
+    </div>
+    <a class="logout btn btn-secondary btn-sm" href="/logout">Log Out</a>
+</div>
